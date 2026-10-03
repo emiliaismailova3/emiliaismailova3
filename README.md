@@ -1,4 +1,4 @@
-# Hi, I'm Emiliya 👋
+# Hi, I'm Emiliia 👋
 
 Physicist turned Data Scientist, based in Baku, Azerbaijan.
 
