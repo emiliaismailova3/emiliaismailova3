@@ -1,8 +1,8 @@
 # Hi, I'm Emiliia 👋
 
-Physicist turned Data Scientist, based in Baku, Azerbaijan.
+Junior Data Scientist based in Baku, Azerbaijan, focused on machine learning, LLM / RAG applications and computer vision.
 
-I hold a Master's degree in Solid State Physics from Baku State University, where I learned to model systems, work with experimental data and test ideas carefully. Now I apply the same approach to data: building machine learning pipelines, LLM / RAG applications, analysing business data and working on computer vision.
+I build end-to-end projects: from SQL and feature engineering to trained models, REST APIs and Docker deployments, with automated tests and honest evaluation. I learn fast, work hard and I'm looking for a junior Data Scientist / ML Engineer role where I can keep growing in a strong team.
 
 ### 🔭 Currently
 
@@ -40,6 +40,11 @@ I hold a Master's degree in Solid State Physics from Baku State University, wher
 - **Computer vision:** object detection and multi-object tracking (YOLO11, ByteTrack), tiled inference for small objects (SAHI), CLAHE preprocessing, dataset annotation
 - **SQL:** CTEs, window functions, data quality checks, RFM segmentation, feature engineering in PostgreSQL
 - **Engineering:** REST APIs, Docker, automated tests and CI, training/serving parity checks
+
+### 🎓 Education
+
+- **Data Science Bootcamp**, Coders Azerbaijan (2025): 300+ hours, ranked 2nd in the cohort
+- **MSc in Solid State Physics**, Baku State University (2025, with honours)
 
 ### 🌍 Languages
 
