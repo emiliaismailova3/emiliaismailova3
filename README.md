@@ -2,12 +2,12 @@
 
 Junior Data Scientist based in Baku, Azerbaijan, focused on machine learning, LLM / RAG applications and computer vision.
 
-I build end-to-end projects: from SQL and feature engineering to trained models, REST APIs and Docker deployments, with automated tests and honest evaluation. I learn fast, work hard and I'm looking for a junior Data Scientist / ML Engineer role where I can keep growing in a strong team.
+I build end-to-end projects: from SQL and feature engineering to trained models, REST APIs and Docker deployments, with automated tests and honest evaluation. I learn fast, work hard and I'm looking for a junior AI Engineer / Data Scientist / ML Engineer role where I can keep growing in a strong team.
 
 ### 🔭 Currently
 
 - **Data Scientist (part-time) at GoalSS**, an AI-powered football scouting platform: player detection and ball tracking in match video
-- Adding hybrid search (BM25 + vectors) and re-ranking to my [AML/KYC RAG assistant](https://github.com/emiliaismailova3/aml-kyc-rag-assistant)
+- Extending my [AML/KYC RAG assistant](https://github.com/emiliaismailova3/aml-kyc-rag-assistant) into a document assistant: invoice OCR + LLM extraction, company matching, pgvector, a read-only SQL agent tool, streaming answers and an MCP server
 - Learning pose estimation and action recognition (RTMPose, ST-GCN)
 
 ### 📂 Projects
@@ -15,7 +15,7 @@ I build end-to-end projects: from SQL and feature engineering to trained models,
 | Project | What it does | Stack |
 |---|---|---|
 | [**Fraud Detection Pipeline**](https://github.com/emiliaismailova3/fraud-detection-pipeline) · [▶ live demo](https://fraud-risk-demo.onrender.com) | Flags fraudulent card payments in 590K real transactions: leakage-free SQL features, LightGBM vs a PyTorch network on a time split (PR-AUC 0.515), served as a Docker API | PostgreSQL, LightGBM, XGBoost, PyTorch, FastAPI, Docker |
-| [**AML/KYC RAG Assistant**](https://github.com/emiliaismailova3/aml-kyc-rag-assistant) | Compliance Q&A over 16 FATF, Wolfsberg and Central Bank of Azerbaijan documents with page-level citations, a tool-calling agent, RAGAS evaluation and 59 tests in CI | LangChain, LangGraph, ChromaDB, FastAPI, Streamlit, Docker |
+| [**AML/KYC RAG Assistant**](https://github.com/emiliaismailova3/aml-kyc-rag-assistant) | Compliance Q&A over 16 FATF, Wolfsberg and Central Bank of Azerbaijan documents with page-level citations, a tool-calling agent (knowledge base, read-only SQL, invoice extraction), invoice OCR + LLM extraction with validation, company matching, RAGAS evaluation and 200+ tests in CI | LangChain, LangGraph, ChromaDB / pgvector, PostgreSQL, FastAPI, Celery, Tesseract, Docker |
 | [**Olist Marketplace Analytics**](https://github.com/emiliaismailova3/olist-marketplace-analytics) | End-to-end BI on ~99K e-commerce orders: data quality, RFM segmentation, delivery and sales analysis, dashboards | SQL, Excel, Power BI |
 | [**SmartFly**](https://github.com/emiliaismailova3/SmartFly) | Flight price prediction: 7 regression models compared, best model (Random Forest) served in a Flask web app | Python, scikit-learn, Flask |
 
