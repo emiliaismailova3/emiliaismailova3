@@ -14,10 +14,10 @@ I build end-to-end projects: from SQL and feature engineering to trained models,
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Fraud Detection Pipeline**](https://github.com/emiliaismailova3/fraud-detection-pipeline) · [▶ live demo](https://fraud-risk-demo.onrender.com) | Flags fraudulent card payments in 590K real transactions: leakage-free SQL features, LightGBM vs a PyTorch network on a time split (PR-AUC 0.515), served as a Docker API | PostgreSQL, LightGBM, XGBoost, PyTorch, FastAPI, Docker |
-| [**AML/KYC RAG Assistant**](https://github.com/emiliaismailova3/aml-kyc-rag-assistant) | Compliance Q&A over 16 FATF, Wolfsberg and Central Bank of Azerbaijan documents with page-level citations, a tool-calling agent (knowledge base, read-only SQL, invoice extraction), invoice OCR + LLM extraction with validation, company matching, RAGAS evaluation and 200+ tests in CI | LangChain, LangGraph, ChromaDB / pgvector, PostgreSQL, FastAPI, Celery, Tesseract, Docker |
+| [**Fraud Detection Pipeline**](https://github.com/emiliaismailova3/fraud-detection-pipeline) · [▶ live demo](https://fraud-risk-demo.onrender.com) | Flags fraudulent card payments in 590K real transactions: reviewing the top 1% riskiest payments catches 24% of all fraud at 84% precision. Leakage-free SQL features, LightGBM vs a PyTorch network on a time split, served as a Docker API | PostgreSQL, LightGBM, XGBoost, PyTorch, FastAPI, Docker |
+| [**AML/KYC RAG Assistant**](https://github.com/emiliaismailova3/aml-kyc-rag-assistant) | Compliance Q&A over 16 FATF, Wolfsberg and Central Bank of Azerbaijan documents with page-level citations, a tool-calling agent (knowledge base, read-only SQL, invoice extraction), invoice OCR + LLM extraction with validation, company matching, RAGAS evaluation (faithfulness 0.83) and 305 tests in CI | LangChain, LangGraph, ChromaDB / pgvector, PostgreSQL, FastAPI, Celery, Tesseract, Docker |
 | [**Olist Marketplace Analytics**](https://github.com/emiliaismailova3/olist-marketplace-analytics) | End-to-end BI on ~99K e-commerce orders: data quality, RFM segmentation, delivery and sales analysis, dashboards | SQL, Excel, Power BI |
-| [**SmartFly**](https://github.com/emiliaismailova3/SmartFly) | Flight price prediction: 7 regression models compared, best model (Random Forest) served in a Flask web app | Python, scikit-learn, Flask |
+| [**SmartFly**](https://github.com/emiliaismailova3/SmartFly) | Flight price prediction: 7 regression models compared, best model (Random Forest, R² 0.98) served in a Flask web app with a 30-day price forecast | Python, scikit-learn, Flask |
 
 ### 🛠 Skills
 
